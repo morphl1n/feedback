@@ -19,7 +19,7 @@
       <div class="collapse navbar-collapse" id="navbarNav">
         <ul class="navbar-nav ms-auto">
          <li class="nav-item">
-              <a class="nav-link" href="<?php echo __DIR__ . '../index.php'; ?>">Home</a>
+              <a class="nav-link" href="/index.php'; ?>">Home</a>
             </li>
             <li class="nav-item">
               <a class="nav-link" href="feedback.php"
@@ -27,7 +27,7 @@
               >
             </li>
             <li class="nav-item">
-              <a class="nav-link" href="<?php echo $_SERVER['REQUEST_URI'] . '/about.php'; ?>"
+              <a class="nav-link" href='/about.php'; ?>"
                 >About</a
               >
             </li>
