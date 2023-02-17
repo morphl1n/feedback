@@ -5,6 +5,10 @@
  $result = mysqli_query($conn, $sql);
  $feedback = mysqli_fetch_all($result, MYSQLI_ASSOC);
 
+ if (!$result) {
+  echo "this";
+}
+
 ?>
    
     <h2>Past Feedbacks</h2>
