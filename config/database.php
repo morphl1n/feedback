@@ -10,11 +10,6 @@
     $query_builder = TRUE;
 // Connect to DB
 $conn = mysqli_connect($cleardb_server, $cleardb_username, $cleardb_password, $cleardb_db);
-$test = 'kut';
-
-if($conn->connect_error){
-    die('Connection Failure' . $conn->connect_error);
-}
 
 ?>
 

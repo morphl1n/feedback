@@ -3,23 +3,14 @@
 <?php
  $sql = 'SELECT * FROM feedbackform';
  $result = mysqli_query($conn, $sql);
- if (!$result) {
-  die('Error: ' . mysqli_error($conn));
-}
  $feedback = mysqli_fetch_all($result, MYSQLI_ASSOC);
 
  
- 
-// Check for errors
-
 
 
 ?>
    
-    <h2>Past Feedbacks
-      <?php echo 'feedback:' . var_dump($feedback);
-      echo 'result:' . var_dump($result); ?>
-    </h2>
+    <h2>Past Feedbacks </h2>
   <?php foreach($feedback as $item): ?>
     <div class="card my-3 w-75">
      <div class="card-body text-center">
