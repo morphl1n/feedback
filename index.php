@@ -26,11 +26,11 @@ if(isset($_POST['submit'])){
   
   if(empty($nameError) && empty($bodyError) && empty($emailError)){
     $sql = "INSERT INTO feedbackform (name, email, body) VALUES ('$name', '$email', '$body')";
-    if(mysqli_query($connect, $sql)){
+    if(mysqli_query($conn, $sql)){
       header('Location: feedback.php');
 
     }else{
-      echo 'Error:' . mysqli_error($connect);
+      echo 'Error:' . mysqli_error($conn);
     }
   }
 
