@@ -36,7 +36,7 @@ if(isset($_POST['submit'])){
 
 }
 ?>
-    <img src="/php-crash/feedback/img/logo.png" class="w-25 mb-3" alt="">
+    <img src="" class="w-25 mb-3" alt="">
     <h2>Feedback</h2>
     <p class="lead text-center">Leave feedback for Luka Kurdiani</p>
     <form action="<?php echo htmlspecialchars($_SERVER['PHP_SELF']);?>" method="POST" class="mt-4 w-75">

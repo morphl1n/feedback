@@ -2,7 +2,7 @@
 
 <?php
  $sql = 'SELECT * FROM feedbackform';
- $result = mysqli_query($connect, $sql);
+ $result = mysqli_query($conn, $sql);
  $feedback = mysqli_fetch_all($result, MYSQLI_ASSOC);
 
 ?>
