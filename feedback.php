@@ -5,13 +5,13 @@
  $result = mysqli_query($conn, $sql);
  $feedback = mysqli_fetch_all($result, MYSQLI_ASSOC);
 
- if (!$result) {
-  echo "this";
-}
+
 
 ?>
    
-    <h2>Past Feedbacks</h2>
+    <h2>Past Feedbacks
+      <?php echo $test ?>
+    </h2>
   <?php foreach($feedback as $item): ?>
     <div class="card my-3 w-75">
      <div class="card-body text-center">
