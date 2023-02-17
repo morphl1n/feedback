@@ -17,8 +17,8 @@
 ?>
    
     <h2>Past Feedbacks
-      <?php echo var_dump($feedback);
-      echo var_dump($result); ?>
+      <?php echo 'feedback:' . var_dump($feedback);
+      echo 'result:' . var_dump($result); ?>
     </h2>
   <?php foreach($feedback as $item): ?>
     <div class="card my-3 w-75">
