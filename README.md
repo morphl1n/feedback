@@ -1,4 +1,4 @@
-# Although PHP is not my primary programming language, I was able to grasp it quickly and enjoyed working with it. This project was built entirely with PHP and MySQL.
+## Although PHP is not my primary programming language, I was able to grasp it quickly and enjoyed working with it. This project was built entirely with PHP and MySQL.
 
 # [Live app](https://app-feedback-php.herokuapp.com)
 
