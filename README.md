@@ -9,3 +9,6 @@
 - About section
 - Input validation, including required fields for email, text, and name
 - Input sanitization
+
+
+## Thanks for your time!
