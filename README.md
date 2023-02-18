@@ -4,8 +4,8 @@
 
 ## Key Features:
 
-Ability to add feedback to the site
-Ability to read past feedback
-About section
-Input validation, including required fields for email, text, and name
-Input sanitization
+- Ability to add feedback to the site
+- Ability to read past feedback
+- About section
+- Input validation, including required fields for email, text, and name
+- Input sanitization
